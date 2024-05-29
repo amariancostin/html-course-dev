@@ -1,0 +1,15 @@
+img{
+width: 400px;
+}
+
+body{
+    background-color: aliceblue;
+    font: bold;
+}
+
+.hover-blur {
+    transition: filter 0.5s ease;
+}
+.hover-blur:hover {
+    filter: blur(5px);
+}
